@@ -29,7 +29,10 @@ I have written thoughts/justifications throughout the code commenting.
 
 Given more time, I would have further investigated the following:
 
--- I have noticed that for all numeric node features within a graph, there are only two distinct values. I would assume this means the graphs could be condensed in some way to improve training.   
+-- I have noticed that for all numeric node features within a graph, there are only two distinct values. I would assume this means the graphs could be condensed in some way to improve training.
+
 -- I have only implemented a very basic character summary for including the text as a feature for training. I would imagine there is a more elegant way to incorporate sentence embeddings into features.
+
 -- In most cases I have used arbitrary network parameters. I have not tuned parameters in any way as good predictive accuracy is not expected, given a dataset where I could expect meaningful predictions I would consider using a genetic algorithm for this if it was computationally feasible.
+
 -- As the meaning of the targets is not clear, it is hard to choose a loss function and performance metrics.
