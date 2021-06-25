@@ -9,10 +9,10 @@ A graph convolutional neural (models/GNN.py) which uses a Spektral (https://grap
 
 ## Usage
 
-A requirements file is provided, this was built using python 3.8.5
+A requirements file is provided, this was built using python 3.8.5. Install required packages to a virtual environment with the follow commands for linux.
 
 ```bash
-virtualenv -p <path/to/python3.8> <myenv>
+virtualenv -p <path/to/python3.8.5> <myenv>
 source <myenv>/bin/activate
 python -m pip install -r requirements.txt
 ```
@@ -22,6 +22,8 @@ To run and test the pre-trained feed-forward network and then 'dummy' train (i.e
 ```bash
 python run_models.py
 ```
+
+Model testing results are logged to outputs.log
 
 ## Observations
 
